@@ -32,6 +32,7 @@ class Client
                     else
                     {
                         Console.WriteLine("Invalid index format");
+                        break;
                     }
 
                     ReceiveMessage();
@@ -94,6 +95,7 @@ class Client
                     else
                     {
                         Console.WriteLine("Invalid index format");
+                        break;
                     }
 
                     ReceiveMessage();
